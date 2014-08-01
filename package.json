@@ -1,0 +1,14 @@
+{
+  "name": "bender",
+  "version": "0.0.1",
+  "description": "Home Rasberry Pi server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Matthew McClure",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.7.2"
+  }
+}
