@@ -4,11 +4,16 @@
   "description": "Home Rasberry Pi server",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "npm test"
   },
   "author": "Matthew McClure",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.7.2"
+    "bluebird": "^2.2.2",
+    "chromecast": "0.0.4",
+    "express": "^4.7.2",
+    "hiredis": "^0.1.17",
+    "redis": "^0.11.0"
   }
 }
